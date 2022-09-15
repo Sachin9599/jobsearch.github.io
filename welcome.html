@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Job portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <h3 class="my-2 mx-2">ONLINE JOB PORTAL</h3>
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse mx-4" id="basicExampleNav">
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="welcome.php">Home
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Dashboard</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Top Companies</a>
+    </li>
+
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true">My Admisstration</a>
+      <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="#">My bookmarks</a>
+        <a class="dropdown-item" href="#">My job</a>
+        <a class="dropdown-item" href="#">Profile</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="login.php">logout</a>
+    </li>
+  </ul>
+</div>
+<div class="d-flex align-items-center">
+        <button type="button" class="btn btn-primary me-3" onclick="window.location.href = 'login.php';">
+          Login</button>
+          <button type="button" class="btn btn-primary me-3" onclick="window.location.href = 'signup.php';">
+          Sign Up</button>
+      </div>
+</nav>
+    <!-- <?php require 'partials/navbar.php' ?> -->
+    <div class="landing">
+        <img src="img/search.jpg" alt="search" width="100%">
+    </div>
+    <div class="heading my-2 mx-4">
+        <h3>Welcome to Online Job Portal</h3>
+    </div>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/web.jpeg" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Developer</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquid nesciunt sunt libero odio sit saepe nobis deleniti qui, eos velit asperiores reiciendis.</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/digital.jpeg" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illum fuga porro distinctio id numquam? Quia, nam dignissimos voluptate impedit .</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/network.jpeg" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Network Marketing</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta architecto ipsa saepe alias mollitia aut sint sunt magnam molestiae ab?. Lorem ipsum dolor sit.</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/data.jfif" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Scientist</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquid nesciunt sunt libero odio sit saepe nobis deleniti qui, eos velit asperiores reiciendis.</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/block.png" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">BlockChain Developer</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illum fuga porro distinctio id numquam? Quia, nam dignissimos voluptate impedit .</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/seo.jfif" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Seo Experts</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta architecto ipsa saepe alias mollitia aut sint sunt magnam molestiae ab?. Lorem ipsum dolor sit.</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/machine.jpg" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning Experts</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquid nesciunt sunt libero odio sit saepe nobis deleniti qui, eos velit asperiores reiciendis.</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/ca.jpg" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Chartered Accountant</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illum fuga porro distinctio id numquam? Quia, nam dignissimos voluptate impedit Lorem, ipsum Lorem, ipsum dolor. .</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="row">
+                        <img src="img/manager.jpg" class="card-img-top col-sm-4" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing Manager</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta architecto ipsa saepe alias mollitia aut sint sunt magnam molestiae ab?. Lorem ipsum dolor sit. Lorem ipsum dolor sit.</p>
+                            <a href="details.php" class="btn btn-primary">Apply Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<footer class="text-center">
+    <h4>Resesrved Under All &copy;  2022</h4>
+</footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
